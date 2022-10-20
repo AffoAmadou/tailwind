@@ -1,1 +1,21 @@
 @import "./base/body";
+
+@font-face {
+    font-family: "SOne";
+    src        : url("../static/font/SamsungOne.ttf");
+}
+
+@font-face {
+    font-family: "OneBold";
+    src        : url("../static/font/SamsungOnebold.ttf");
+}
+
+@font-face {
+    font-family: "Samsung";
+    src: url("../static/font/SamsungBold.ttf");
+  }
+
+html {
+    font-size: calc(100vw / 1920px * 10px);
+}
+
